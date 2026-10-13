@@ -16,10 +16,10 @@ Clone the repository and run the following single command from the project root:
 
 ```bash
 # On Linux / macOS / Git Bash:
-pip install -r requirements.txt && uvicorn app.main:app --host 0.0.0.0 --port 8000
+pip install -r requirements.txt && python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 # On Windows PowerShell:
-pip install -r requirements.txt; uvicorn app.main:app --host 127.0.0.1 --port 8000
+pip install -r requirements.txt; python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 
 # Or run with the included one-click launcher:
 .\run.ps1        # In PowerShell
